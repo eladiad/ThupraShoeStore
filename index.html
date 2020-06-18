@@ -29,14 +29,14 @@
             </div>
         </header>
         <main class="container">
-            <section class="view">
+            <section class="view" id="view">
                 <div class="view-info">
                     <p class="slide-top view-info--name mb-3" style="animation-delay: 100ms;">puma</p>
                     <p class="slide-top view-info--subname" style="animation-delay: 200ms;">tsugi</p>
                     <p class="slide-top view-info--subname" style="animation-delay: 300ms;">shinsezi</p>
                 </div>
                 <div class="view-img slide-top-img" style="animation-delay: 100ms;">
-                    <img src="img/AirMax-720.png" alt="shoe picture">
+                    <img id="shoe-img" src="img/a.png" alt="shoe picture">
                 </div>
                 <div class="view-info--footer">
                     <div class="col-md-12">
@@ -57,6 +57,8 @@
             <section class="space"></section>
         </main>
     </div>
+    <input type="hidden" id="shoeCounter" value="1">
+    <script src="js/shoeChange.js"></script>
 </body>
 
 </html>
